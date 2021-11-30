@@ -6,10 +6,10 @@ là một ô nhớ chứa địa chỉ, cần 1 hành đông trỏ để xác đ
 
 có thể thêm dấu "&" để xuất ra địa chỉ của biến
 
-```int x=5; 
-``` cout<<x<<'\n';//in ra gia tri cua bien 
-``` cout<<&x<<'\n';
-
-
+```c++
+ int x=5; 
+ cout<<x<<'\n';//in ra gia tri cua bien 
+ cout<<&x<<'\n';
+```
 
 
