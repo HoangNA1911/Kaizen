@@ -64,7 +64,8 @@ cout <<con_tro1<<endl;
 cout<<con_tro2;
 ```
 
-![anh3](./img/1569baf7f53a3e64672b)
+![anh3](./img/1569baf7f53a3e64672b.jpg)
+
 Kết quả sẽ là địa chỉ của number gán cho con trỏ 1 và 2;
 
 với mảng thì các thành phần trong mảng sẽ lưu ở những địa chỉ khác nhau tuy nhiên chúng lại liền kề nhau
@@ -85,7 +86,7 @@ cout<<*x<<endl>>;
 cout<<*(&number);
 ```
 
-![anh4](./img/7ae1334e7b83b0dde992)
+![anh4](./img/7ae1334e7b83b0dde992.jpg)
 
 cả hai cách trên đều đúng và cho ra giá trị là 5
 
