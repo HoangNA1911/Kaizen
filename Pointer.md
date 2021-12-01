@@ -33,8 +33,11 @@ lưu ý ta chỉ có thể lưu vào con trỏ địa chỉ của vùng nhớ, t
 ```c++
 int *x;
 int a=10;
-x=&a;
+x=&a
+cout<<x;
 ```
+
+![anh2](./img/0c2d4b030ecec5909cdf.jpg)
 
 Đây là 1 cách gán hợp lệ.
 
@@ -61,6 +64,7 @@ cout <<con_tro1<<endl;
 cout<<con_tro2;
 ```
 
+![anh3](./img/1569baf7f53a3e64672b)
 Kết quả sẽ là địa chỉ của number gán cho con trỏ 1 và 2;
 
 với mảng thì các thành phần trong mảng sẽ lưu ở những địa chỉ khác nhau tuy nhiên chúng lại liền kề nhau
@@ -80,6 +84,8 @@ x=&number;
 cout<<*x<<endl>>;
 cout<<*(&number);
 ```
+
+![anh4](./img/7ae1334e7b83b0dde992)
 
 cả hai cách trên đều đúng và cho ra giá trị là 5
 
