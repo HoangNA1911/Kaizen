@@ -24,7 +24,7 @@ với cú pháp <kiểu dữ lieu> *<tên biến>
  cout<<&x<<'\n';//in ra dia chi cua bien
 ```
 
-![1](./img/c97e52eb7e26b578ec37.ipg)
+![anh](./img/c97e52eb7e26b578ec37.jpg)
 
 Bằng cách thêm dấu "&" ta có thể xuất địa chỉ của biến ở vùng nhớ vật lý cách này gọi là address-of operator
 
@@ -57,6 +57,8 @@ int *con_tro1, *con_tro2;
 int number=10;
 con_tro1=&number;
 con_tro2=con_tro1;
+cout <<con_tro1<<endl;
+cout<<con_tro2;
 ```
 
 Kết quả sẽ là địa chỉ của number gán cho con trỏ 1 và 2;
@@ -75,7 +77,7 @@ Cách thức để lấy giá trị từ con trỏ ta sử dụng cú pháp: *<�
 int *x;
 int number=5;
 x=&number;
-cout<<*x;
+cout<<*x<<endl>>;
 cout<<*(&number);
 ```
 

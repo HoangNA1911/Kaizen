@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int x=5;
-    cout<<x<<'\n';
-    cout<<&x<<'\n';
+ int *x;
+int a=10;
+x=&a;
+cout<<x;
 }
