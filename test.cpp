@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int *a;
-    a;
+    int x=5;
+    cout<<x<<'\n';
+    cout<<&x<<'\n';
 }

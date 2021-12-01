@@ -24,6 +24,8 @@ với cú pháp <kiểu dữ lieu> *<tên biến>
  cout<<&x<<'\n';//in ra dia chi cua bien
 ```
 
+![1](./imgc97e52eb7e26b578ec37.ipg)
+
 Bằng cách thêm dấu "&" ta có thể xuất địa chỉ của biến ở vùng nhớ vật lý cách này gọi là address-of operator
 
 lưu ý ta chỉ có thể lưu vào con trỏ địa chỉ của vùng nhớ, tức là không thể lưu giá trị, kể cả địa chỉ dưới dạng thập lục phân cũng không thể lưu vd như: 
